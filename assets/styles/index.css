@@ -9,10 +9,13 @@
 body {
     font-family:"Oswald", sans-serif;
     padding: 20px;
+    background-color: rgb(221, 234, 250);
 }
 
 h1 {
     font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 section {
@@ -22,12 +25,13 @@ section {
 h2 {
     margin-bottom: 15px;
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .flex-container {
     width: 90%;
     height: 200px;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(50, 129, 219);
     margin: 0 auto 20px;
     display: flex;
     justify-content: flex-start;
@@ -37,12 +41,16 @@ h2 {
 .flex-item {
     width: 80px;
     height: 80px;
-    background-color: rgb(179, 179, 179);
-    border: 2px solid rgb(51, 51, 51);
+    background-color: rgb(195, 220, 248);
+    border: 2px solid rgb(6, 97, 202);
     color: rgb(0, 0, 0);
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+}
+
+.justify-center {
+    justify-content: center;
 }
