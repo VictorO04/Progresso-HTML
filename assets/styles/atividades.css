@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.retangulo {
+    width: 30%;
+    height: 200px;
+    background-color: rgb(50, 129, 219);
+    margin: 0 auto 20px;
+}
