@@ -1,12 +1,30 @@
-body {
+* {
     margin: 0;
-    padding: 50px;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.retangulo {
-    width: 30%;
-    height: 200px;
-    background-color: rgb(50, 129, 219);
-    margin: 0 auto 20px;
+.semaforo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    gap: 30px;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.vermelho {
+    background-color: red;
+}
+.amarelo {
+    background-color: yellow;
+}
+.verde {
+    background-color: green;
 }
