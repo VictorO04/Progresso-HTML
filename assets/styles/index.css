@@ -9,7 +9,7 @@
 body {
     font-family:"Oswald", sans-serif;
     padding: 20px;
-    background-color: rgb(221, 234, 250);
+    background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -31,7 +31,7 @@ h2 {
 .flex-container {
     width: 90%;
     height: 200px;
-    background-color: rgb(50, 129, 219);
+    background-color: rgb(216, 117, 117);
     margin: 0 auto 20px;
     display: flex;
     justify-content: flex-start;
@@ -41,8 +41,8 @@ h2 {
 .flex-item {
     width: 80px;
     height: 80px;
-    background-color: rgb(195, 220, 248);
-    border: 2px solid rgb(6, 97, 202);
+    background-color: rgb(255, 189, 189);
+    border: 2px solid rgb(196, 73, 73);
     color: rgb(0, 0, 0);
     margin: 10px;
     display: flex;
@@ -76,10 +76,10 @@ h2 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border-radius: 30px;
-    border: 2px solid rgb(6, 97, 202);
+    border: 2px solid rgb(216, 117, 117);
 }
 
 .navegacao:hover {
-    background-color: rgb(6, 97, 202);
+    background-color: rgb(216, 117, 117);
     color: white;
 }
